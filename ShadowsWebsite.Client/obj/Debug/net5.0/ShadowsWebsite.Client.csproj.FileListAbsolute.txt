@@ -50,3 +50,5 @@ C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\ShadowsWebsite.Client.pdb
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\ShadowsWebsite.Client.genruntimeconfig.cache
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\ShadowsWebsite.Client.csproj.CopyComplete
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Pages\Content.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Pages\Content.razor.g.cs
