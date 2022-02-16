@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "u9HQTCTpeG3LK5UvXYdhWU9+H0lOeXZxF4EMB6LhzuEA2UaE8vt2BcrqBbTbLCTq2KSGRhJNtjg4ZnEMiX8pvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\verdoa\\source\\repos\\ShadowsWebsite\\ShadowsWebsite.API\\ShadowsWebsite.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\verdoa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\verdoa\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\verdoa\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\verdoa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\verdoa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\verdoa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowsWebsite.Client", "ShadowsWebsite.Client\ShadowsWebsite.Client.csproj", "{E769845E-A6EB-478A-966F-A0B40DABFE4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowsWebsite.API", "ShadowsWebsite.API\ShadowsWebsite.API.csproj", "{A0F4F9FA-AF38-4F0C-8F07-D66B54C8F2D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowsWebsite.Common", "ShadowsWebsite.Common\ShadowsWebsite.Common.csproj", "{C9509FB7-1D7C-4119-B453-2BA8ED13FD3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E769845E-A6EB-478A-966F-A0B40DABFE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E769845E-A6EB-478A-966F-A0B40DABFE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E769845E-A6EB-478A-966F-A0B40DABFE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E769845E-A6EB-478A-966F-A0B40DABFE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F4F9FA-AF38-4F0C-8F07-D66B54C8F2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F4F9FA-AF38-4F0C-8F07-D66B54C8F2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F4F9FA-AF38-4F0C-8F07-D66B54C8F2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F4F9FA-AF38-4F0C-8F07-D66B54C8F2D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9509FB7-1D7C-4119-B453-2BA8ED13FD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9509FB7-1D7C-4119-B453-2BA8ED13FD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9509FB7-1D7C-4119-B453-2BA8ED13FD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9509FB7-1D7C-4119-B453-2BA8ED13FD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
