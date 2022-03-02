@@ -1,21 +1,29 @@
-﻿@inject NavigationManager _navigationManager
+﻿@using ShadowsWebsite.Client.Pages
+@inject NavigationManager _navigationManager
 <nav class="navbar navbar-expand-lg navbar-dark">
 	<a class="btn btn-dark navbar-brand" href="">CyberDragon Studios</a>
 	<button class="navbar-toggler" @onclick="ToggleNavMenu">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="@NavMenuCssClass navbar-collapse">
+
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-link">
-				<NavLink class="btn btn-dark nav-link" href=""   Match="NavLinkMatch.All">
-					<span class="oi oi-home" aria-hidden="true"  style="cursor:pointer"></span> Home
+				<NavLink class="btn btn-dark nav-link" href="" Match="NavLinkMatch.All">
+					<span class="oi oi-home" aria-hidden="true" style="cursor:pointer"></span> Home
 				</NavLink>
 			</li>
 			<li class="nav-link">
-				<NavLink  class="btn btn-dark nav-link" href="Content" >
+				<NavLink class="btn btn-dark nav-link" href="Content">
 					<span class="oi oi-arrow-right" aria-hidden="true" style="cursor:pointer"></span> Content
 				</NavLink>
 			</li>
+			<li class="nav-link">
+				<NavLink class="btn btn-dark nav-link" @onclick="@(() => Modal.Show<ContactModel>("My Modal"))">
+					<span class="oi oi-book" aria-hidden="true" style="cursor:pointer"></span> Contact Info
+				</NavLink>
+			</li>
+			@* <button @onclick="@(() => Modal.Show<ContactModel>("My Modal"))" class="btn btn-primary">My moddle</button> *@
 		</ul>
 	</div>
 </nav>
@@ -29,5 +37,5 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
-
+	[CascadingParameter] public IModalService Modal { get; set; }
 }

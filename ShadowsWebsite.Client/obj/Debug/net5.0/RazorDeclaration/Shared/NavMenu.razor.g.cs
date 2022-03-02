@@ -82,6 +82,27 @@ using ShadowsWebsite.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
+using Blazored.Modal;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
+using Blazored.Modal.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 1 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
+using ShadowsWebsite.Client.Pages;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -90,7 +111,7 @@ using ShadowsWebsite.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 23 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
+#line 31 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
@@ -100,7 +121,7 @@ using ShadowsWebsite.Client.Shared;
     {
         collapseNavMenu = !collapseNavMenu;
     }
-
+	[CascadingParameter] public IModalService Modal { get; set; }
 
 #line default
 #line hidden
