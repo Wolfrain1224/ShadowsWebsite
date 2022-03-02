@@ -165,6 +165,16 @@
         "runtime": {
           "lib/netstandard2.1/Microsoft.JSInterop.WebAssembly.dll": {}
         }
+      },
+      "ShadowsWebsite.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ShadowsWebsite.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShadowsWebsite.Common.dll": {}
+        }
       }
     }
   },
@@ -399,11 +409,17 @@
         "microsoft.jsinterop.webassembly.3.2.1.nupkg.sha512",
         "microsoft.jsinterop.webassembly.nuspec"
       ]
+    },
+    "ShadowsWebsite.Common/1.0.0": {
+      "type": "project",
+      "path": "../ShadowsWebsite.Common/ShadowsWebsite.Common.csproj",
+      "msbuildProject": "../ShadowsWebsite.Common/ShadowsWebsite.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Blazored.Modal >= 6.0.1"
+      "Blazored.Modal >= 6.0.1",
+      "ShadowsWebsite.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -432,7 +448,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\verdoa\\source\\repos\\ShadowsWebsite\\ShadowsWebsite.Common\\ShadowsWebsite.Common.csproj": {
+              "projectPath": "C:\\Users\\verdoa\\source\\repos\\ShadowsWebsite\\ShadowsWebsite.Common\\ShadowsWebsite.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

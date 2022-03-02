@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ShadowsWebsite.Common.StateManagement;
 
 namespace ShadowsWebsite.Client
 {
@@ -29,6 +30,7 @@ namespace ShadowsWebsite.Client
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddBlazoredModal();
+            services.AddScoped<CounterState>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

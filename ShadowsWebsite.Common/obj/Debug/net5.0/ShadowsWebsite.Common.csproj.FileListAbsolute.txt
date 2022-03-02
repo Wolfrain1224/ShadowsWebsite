@@ -1,0 +1,12 @@
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Common\bin\Debug\net5.0\ShadowsWebsite.Common.deps.json
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Common\bin\Debug\net5.0\ShadowsWebsite.Common.dll
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Common\bin\Debug\net5.0\ref\ShadowsWebsite.Common.dll
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Common\bin\Debug\net5.0\ShadowsWebsite.Common.pdb
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Common\obj\Debug\net5.0\ShadowsWebsite.Common.csproj.AssemblyReference.cache
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Common\obj\Debug\net5.0\ShadowsWebsite.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Common\obj\Debug\net5.0\ShadowsWebsite.Common.AssemblyInfoInputs.cache
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Common\obj\Debug\net5.0\ShadowsWebsite.Common.AssemblyInfo.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Common\obj\Debug\net5.0\ShadowsWebsite.Common.csproj.CoreCompileInputs.cache
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Common\obj\Debug\net5.0\ShadowsWebsite.Common.dll
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Common\obj\Debug\net5.0\ref\ShadowsWebsite.Common.dll
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Common\obj\Debug\net5.0\ShadowsWebsite.Common.pdb

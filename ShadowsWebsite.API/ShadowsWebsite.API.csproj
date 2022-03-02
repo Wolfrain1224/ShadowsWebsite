@@ -12,4 +12,8 @@
       <Folder Include="Controllers" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\ShadowsWebsite.Common\ShadowsWebsite.Common.csproj" />
+    </ItemGroup>
+
 </Project>

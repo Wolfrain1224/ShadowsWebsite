@@ -1,0 +1,32 @@
+﻿@page "/Counter"
+
+@using ShadowsWebsite.Common.StateManagement
+@implements IDisposable
+@inject CounterState _cs
+
+<h1>Counter</h1>
+
+<p>Current count: @_cs.Counter</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+   // private int currentCount = 0;
+
+    protected override void OnInitialized()
+    {
+        _cs.OnChange += StateHasChanged;
+    }
+
+    private void IncrementCount()
+    {
+        //currentCount++;
+        _cs.IncrementCount();
+    }
+
+    public void Dispose()
+    {
+        _cs.OnChange -= StateHasChanged;
+    }
+
+}

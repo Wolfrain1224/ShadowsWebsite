@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace ShadowsWebsite.Client.Shared
+namespace ShadowsWebsite.Client.Pages
 {
     #line hidden
     using System;
@@ -97,13 +97,14 @@ using Blazored.Modal.Services;
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
-using ShadowsWebsite.Client.Pages;
+#line 3 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Pages\Counter.razor"
+using ShadowsWebsite.Common.StateManagement;
 
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/Counter")]
+    public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase, IDisposable
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -111,22 +112,31 @@ using ShadowsWebsite.Client.Pages;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 36 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
+#line 13 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Pages\Counter.razor"
        
-    private bool collapseNavMenu = true;
+   // private int currentCount = 0;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    protected override void OnInitialized()
     {
-        collapseNavMenu = !collapseNavMenu;
+        _cs.OnChange += StateHasChanged;
     }
-	[CascadingParameter] public IModalService Modal { get; set; }
+
+    private void IncrementCount()
+    {
+        //currentCount++;
+        _cs.IncrementCount();
+    }
+
+    public void Dispose()
+    {
+        _cs.OnChange -= StateHasChanged;
+    }
+
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager _navigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private CounterState _cs { get; set; }
     }
 }
 #pragma warning restore 1591
