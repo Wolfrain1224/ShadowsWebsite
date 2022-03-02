@@ -26,7 +26,11 @@ namespace ShadowsWebsite.Common.StateManagement
                 Counter++;
                 NotifyStateChanged();
             }
-
+            public void ClearCount()
+            {
+                Counter = 0;
+                
+            }
         
     }
 }

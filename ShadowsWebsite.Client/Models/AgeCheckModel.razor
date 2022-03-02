@@ -1,0 +1,30 @@
+﻿@using ShadowsWebsite.Common.StateManagement
+@implements IDisposable
+@inject AgeCheck _cs
+
+<h3>Age Check Model</h3>
+<p>Age indacater: @_cs.ageCheck</p>
+<p>Age: @_cs.Age</p>
+<p>Worked or not: @_cs.Set</p>
+<input type="date" @bind="_cs.ageCheck"/>
+<button class="btn btn-primary" @onclick="checkage">Click me</button>
+@code {
+    
+    protected override void OnInitialized()
+    {
+        _cs.OnChange += StateHasChanged;
+    }
+    
+    private void checkage()
+    {
+        
+        _cs.CheckAge();
+    }
+
+    public void Dispose()
+    {
+        _cs.OnChange -= StateHasChanged;
+    }
+
+    
+}

@@ -1,4 +1,4 @@
-﻿@using ShadowsWebsite.Client.Pages
+﻿@using ShadowsWebsite.Client.Models
 @inject NavigationManager _navigationManager
 <nav class="navbar navbar-expand-lg navbar-dark">
 	<a class="btn btn-dark navbar-brand" href="">CyberDragon Studios</a>
@@ -26,6 +26,11 @@
 			<li class="nav-link">
 				<NavLink class="btn btn-dark nav-link" @onclick="@(() => Modal.Show<ContactModel>("My Modal"))">
 					<span class="oi oi-book" aria-hidden="true" style="cursor:pointer"></span> Contact Info
+				</NavLink>
+			</li>
+			<li class="nav-link">
+				<NavLink class="btn btn-dark nav-link" @onclick="@(() => Modal.Show<AgeCheckModel>("My Modal"))">
+					<span class="oi oi-book" aria-hidden="true" style="cursor:pointer"></span> 18+ Content
 				</NavLink>
 			</li>
 			@* <button @onclick="@(() => Modal.Show<ContactModel>("My Modal"))" class="btn btn-primary">My moddle</button> *@

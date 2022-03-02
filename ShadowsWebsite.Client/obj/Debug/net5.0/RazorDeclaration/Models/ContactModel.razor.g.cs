@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace ShadowsWebsite.Client.Shared
+namespace ShadowsWebsite.Client.Models
 {
     #line hidden
     using System;
@@ -96,37 +96,13 @@ using Blazored.Modal.Services;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 1 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
-using ShadowsWebsite.Client.Models;
-
-#line default
-#line hidden
-#nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class ContactModel : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 41 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
-       
-    private bool collapseNavMenu = true;
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-	[CascadingParameter] public IModalService Modal { get; set; }
-
-#line default
-#line hidden
-#nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager _navigationManager { get; set; }
     }
 }
 #pragma warning restore 1591

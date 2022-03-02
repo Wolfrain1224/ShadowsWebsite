@@ -132,6 +132,11 @@ using ShadowsWebsite.Common.StateManagement;
         _cs.OnChange -= StateHasChanged;
     }
 
+    public void Clear()
+    {
+        _cs.ClearCount();
+    }
+
 
 #line default
 #line hidden

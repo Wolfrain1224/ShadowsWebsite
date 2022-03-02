@@ -31,6 +31,8 @@ namespace ShadowsWebsite.Client
             services.AddServerSideBlazor();
             services.AddBlazoredModal();
             services.AddScoped<CounterState>();
+            services.AddScoped<AgeCheck>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

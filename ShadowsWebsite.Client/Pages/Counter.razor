@@ -9,7 +9,7 @@
 <p>Current count: @_cs.Counter</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-
+<button class="btn btn-primary" @onclick="Clear">Clear Count</button>
 @code {
    // private int currentCount = 0;
 
@@ -27,6 +27,11 @@
     public void Dispose()
     {
         _cs.OnChange -= StateHasChanged;
+    }
+
+    public void Clear()
+    {
+        _cs.ClearCount();
     }
 
 }

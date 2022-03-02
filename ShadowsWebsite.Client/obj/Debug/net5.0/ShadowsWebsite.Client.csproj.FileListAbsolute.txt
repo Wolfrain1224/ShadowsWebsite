@@ -54,9 +54,13 @@ C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Pages\Content.razor.g.cs
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\bin\Debug\net5.0\Blazored.Modal.dll
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\bin\Debug\net5.0\Microsoft.JSInterop.WebAssembly.dll
-C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Pages\ContactModel.razor.g.cs
-C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Pages\ContactModel.razor.g.cs
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\bin\Debug\net5.0\ShadowsWebsite.Common.dll
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\bin\Debug\net5.0\ShadowsWebsite.Common.pdb
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Models\AgeCheckModel.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Models\ContactModel.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Models\AgeCheckModel.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Models\ContactModel.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Shared\Agecheck.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Shared\Agecheck.razor.g.cs
