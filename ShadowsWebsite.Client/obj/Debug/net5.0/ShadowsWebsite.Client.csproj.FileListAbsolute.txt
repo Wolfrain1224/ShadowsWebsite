@@ -62,5 +62,3 @@ C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Models\ContactModel.razor.g.cs
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Models\AgeCheckModel.razor.g.cs
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Models\ContactModel.razor.g.cs
-C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Shared\Agecheck.razor.g.cs
-C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Shared\Agecheck.razor.g.cs
