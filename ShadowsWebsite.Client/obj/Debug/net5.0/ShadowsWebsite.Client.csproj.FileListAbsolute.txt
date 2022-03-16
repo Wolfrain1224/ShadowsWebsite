@@ -85,7 +85,9 @@ C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\bin\Debug\net5
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Pages\ErrorLogItemComponent.razor.g.cs
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Pages\ErrorLogsList.razor.g.cs
-C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Pages\ErrorLogItemComponent.razor.g.cs
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Pages\ErrorLogsList.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Pages\AdultContent.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Pages\AdultContent.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Components\ErrorLogItemComponent.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Components\ErrorLogItemComponent.razor.g.cs

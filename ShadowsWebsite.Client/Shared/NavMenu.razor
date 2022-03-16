@@ -1,4 +1,5 @@
-﻿@using ShadowsWebsite.Client.Models
+﻿@inject AgeCheck _cs
+@inject NavigationManager NavigationManager
 <nav class="navbar navbar-expand-lg navbar-dark">
 	<a class="btn btn-dark navbar-brand" href="">CyberDragon Studios</a>
 	<button class="navbar-toggler" @onclick="ToggleNavMenu">
@@ -28,8 +29,8 @@
 				</NavLink>
 			</li>
 			<li class="nav-link">
-				<NavLink class="btn btn-dark nav-link" @onclick="@(() => Modal.Show<AgeCheckModel>("My Modal"))">
-					<span class="oi oi-book" aria-hidden="true" style="cursor:pointer"></span>  Content
+				<NavLink class="btn btn-dark nav-link" @onclick="@(async () => await Agecheck())">
+					<span class="oi oi-book" aria-hidden="true" style="cursor:pointer"></span>  18+ Content
 				</NavLink>
 			</li>
 			 <li class="nav-item px-3">
@@ -53,4 +54,30 @@
         collapseNavMenu = !collapseNavMenu;
     }
 	[CascadingParameter] public IModalService Modal { get; set; }
+	
+	
+	
+	async Task Agecheck()
+	{
+		try
+		{
+			if (_cs.Age is 0 or < 18)
+			{
+				 Modal.Show<AgeCheckModel>("Age Check");
+				await Task.Delay(20000).ContinueWith(t => NavigationManager.NavigateTo("/"));
+			}
+			else
+			{
+				NavigationManager.NavigateTo("/AdultContent");
+			}
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+			throw;
+		}
+		
+		
+	}
+	
 }

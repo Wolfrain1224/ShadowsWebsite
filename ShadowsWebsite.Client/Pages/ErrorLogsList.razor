@@ -1,7 +1,4 @@
 ﻿@page "/view-logs"
-@using System.Collections
-@using ShadowsWebsite.Client.ClientServies
-@using ShadowsWebsite.Common.Domain
 @inject ErrorClientServies _els
 
 <h3>Errorlog List</h3>
@@ -12,6 +9,7 @@
         @foreach (var log in errorLogs)
         {
             <ErrorLogItemComponent Currentitem="log"></ErrorLogItemComponent>
+            
         }
     
     

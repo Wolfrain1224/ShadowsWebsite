@@ -1,11 +1,7 @@
-﻿@using ShadowsWebsite.Common.StateManagement
-@implements IDisposable
+﻿@implements IDisposable
 @inject AgeCheck _cs
-
-<h3>Age Check Model</h3>
-<p>Age indacater: @_cs.ageCheck</p>
-<p>Age: @_cs.Age</p>
-<p>Worked or not: @_cs.Set</p>
+@inject NavigationManager NavigationManager
+<p>@_cs.Set</p>
 <input type="date" @bind="_cs.ageCheck"/>
 <button class="btn btn-primary" @onclick="checkage">Click me</button>
 @code {
@@ -19,6 +15,11 @@
     {
         
         _cs.CheckAge();
+        if (_cs.Age >= 18)
+        {
+             NavigationManager.NavigateTo("/AdultContent");
+        }
+        
     }
 
     public void Dispose()

@@ -97,8 +97,50 @@ using Blazored.Modal.Services;
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
+#line 13 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
+using System.Collections;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
+using ShadowsWebsite.Client.ClientServies;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
+using ShadowsWebsite.Common.Domain;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
+using ShadowsWebsite.Client.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 17 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
+using ShadowsWebsite.Common.StateManagement;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 18 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
 using ShadowsWebsite.Client.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 19 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
+using Microsoft.AspNetCore.Mvc;
 
 #line default
 #line hidden
@@ -111,7 +153,7 @@ using ShadowsWebsite.Client.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 46 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
+#line 47 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
@@ -122,10 +164,38 @@ using ShadowsWebsite.Client.Models;
         collapseNavMenu = !collapseNavMenu;
     }
 	[CascadingParameter] public IModalService Modal { get; set; }
+	
+	
+	
+	async Task Agecheck()
+	{
+		try
+		{
+			if (_cs.Age is 0 or < 18)
+			{
+				 Modal.Show<AgeCheckModel>("Age Check");
+				await Task.Delay(20000).ContinueWith(t => NavigationManager.NavigateTo("/"));
+			}
+			else
+			{
+				NavigationManager.NavigateTo("/AdultContent");
+			}
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+			throw;
+		}
+		
+		
+	}
+	
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AgeCheck _cs { get; set; }
     }
 }
 #pragma warning restore 1591

@@ -45,14 +45,7 @@ namespace ShadowsWebsite.Common.StateManagement
             _age = Getage(_check);
             
             // var age = today.Year - _check.Year;
-            if (_age > 18) 
-            {
-                _set = "Worked";
-            }
-            else
-            {
-                _set = "Did not work";
-            }
+            
             NotifyStateChanged();
         }
 

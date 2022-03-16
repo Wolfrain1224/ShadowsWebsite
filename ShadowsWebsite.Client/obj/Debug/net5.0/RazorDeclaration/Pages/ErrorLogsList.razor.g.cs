@@ -97,22 +97,50 @@ using Blazored.Modal.Services;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Pages\ErrorLogsList.razor"
+#line 13 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
 using System.Collections;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Pages\ErrorLogsList.razor"
+#line 14 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
 using ShadowsWebsite.Client.ClientServies;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Pages\ErrorLogsList.razor"
+#line 15 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
 using ShadowsWebsite.Common.Domain;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
+using ShadowsWebsite.Client.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 17 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
+using ShadowsWebsite.Common.StateManagement;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 18 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
+using ShadowsWebsite.Client.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 19 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\_Imports.razor"
+using Microsoft.AspNetCore.Mvc;
 
 #line default
 #line hidden
@@ -126,7 +154,7 @@ using ShadowsWebsite.Common.Domain;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 25 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Pages\ErrorLogsList.razor"
+#line 23 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Pages\ErrorLogsList.razor"
        
     private IEnumerable<ErrorLogModle> errorLogs { get; set; } = new List<ErrorLogModle>();
 
