@@ -111,7 +111,7 @@ using ShadowsWebsite.Client.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 41 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
+#line 46 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
@@ -126,7 +126,6 @@ using ShadowsWebsite.Client.Models;
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager _navigationManager { get; set; }
     }
 }
 #pragma warning restore 1591

@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ShadowsWebsite.Client.ClientServies;
 using ShadowsWebsite.Common.StateManagement;
 
 namespace ShadowsWebsite.Client
@@ -27,11 +28,14 @@ namespace ShadowsWebsite.Client
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpClient<ErrorClientServies>(
+                Client => { Client.BaseAddress = new Uri(Configuration.GetSection("BaseUrl").Value); });
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddBlazoredModal();
             services.AddScoped<CounterState>();
-            services.AddScoped<AgeCheck>();
+            services.AddScoped<AgeCheck>(); 
+            
 
         }
 

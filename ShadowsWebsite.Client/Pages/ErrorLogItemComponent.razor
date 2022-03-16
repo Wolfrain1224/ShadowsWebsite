@@ -1,0 +1,21 @@
+﻿@using ShadowsWebsite.Common.Domain
+
+<div class="card">
+    <div class="card-header">
+        @Currentitem.ID
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">@Currentitem.RealFirstname @Currentitem.RealLastname </h5>
+        <p class="card-text">@Currentitem.Username</p>
+        <p class="card-text">@Currentitem.Password</p>
+        <p class="card-text">@Currentitem.Email</p>
+        <p class="card-text">@Currentitem.Phone</p>
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public ErrorLogModle Currentitem { get; set; } = new ErrorLogModle();
+
+}

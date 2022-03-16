@@ -1,0 +1,37 @@
+﻿@page "/view-logs"
+@using System.Collections
+@using ShadowsWebsite.Client.ClientServies
+@using ShadowsWebsite.Common.Domain
+@inject ErrorClientServies _els
+
+<h3>Errorlog List</h3>
+<hr />
+@if (errorLogs != null)
+{
+   
+        @foreach (var log in errorLogs)
+        {
+            <ErrorLogItemComponent Currentitem="log"></ErrorLogItemComponent>
+        }
+    
+    
+}
+else
+{
+    <em>There is no data in your object!</em>
+}
+
+
+@code {
+    private IEnumerable<ErrorLogModle> errorLogs { get; set; } = new List<ErrorLogModle>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadData();
+    }
+
+    public async Task LoadData()
+    {
+        errorLogs = await _els.GetAllErrorLogs();
+    }
+}

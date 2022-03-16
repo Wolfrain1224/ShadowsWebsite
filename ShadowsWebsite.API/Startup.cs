@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using ShadowsWebsite.api.Repository;
+using ShadowsWebsite.Common.Configuartion;
 
 namespace ShadowsWebsite.API
 {
@@ -27,6 +29,9 @@ namespace ShadowsWebsite.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            var sqlConnectionConfiguration = new SqlConnectionConfiguration(Configuration.GetConnectionString("ErrorLogConnection"));
+            services.AddSingleton(sqlConnectionConfiguration);
+            services.AddScoped<ErrorLogRepository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ShadowsWebsite.API", Version = "v1" });
