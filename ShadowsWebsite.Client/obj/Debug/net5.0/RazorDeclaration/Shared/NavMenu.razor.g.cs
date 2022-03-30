@@ -153,7 +153,7 @@ using Microsoft.AspNetCore.Mvc;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 47 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
+#line 51 "C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

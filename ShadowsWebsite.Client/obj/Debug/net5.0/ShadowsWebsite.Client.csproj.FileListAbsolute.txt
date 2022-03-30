@@ -91,3 +91,7 @@ C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Pages\AdultContent.razor.g.cs
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Components\ErrorLogItemComponent.razor.g.cs
 C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Components\ErrorLogItemComponent.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Pages\Login.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Pages\Login.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\RazorDeclaration\Pages\Register.razor.g.cs
+C:\Users\verdoa\source\repos\ShadowsWebsite\ShadowsWebsite.Client\obj\Debug\net5.0\Razor\Pages\Register.razor.g.cs

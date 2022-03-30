@@ -1,0 +1,25 @@
+﻿@page "/Login"
+<h3>Login</h3>
+
+<EditForm Model="@user" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <div class="form-group">
+        <label for="username">Username</label>
+        <InputText id="username" @bind-value="user.Username" class="form-control"></InputText>
+    </div>
+    <div class="form-group">
+        <label for="password">Username</label>
+        <InputText id="password" @bind-value="user.Password" class="form-control" type="password"></InputText>
+    </div>
+
+    <button type="submit" class="btn btn-dark">Login</button>
+</EditForm>
+
+@code {
+    private UserLogin user = new UserLogin();
+
+    private void HandleLogin()
+    {
+        
+    }
+}
